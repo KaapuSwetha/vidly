@@ -1,0 +1,50 @@
+/* styles.css */
+
+.main {
+    text-align: center;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .winner {
+    margin-top: 20px;
+  }
+  
+  .winner p {
+    font-size: 24px;
+  }
+  
+  .square {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: white;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color:white;
+  }
+  

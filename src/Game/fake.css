@@ -1,0 +1,248 @@
+.player-img {
+    cursor: pointer;
+    height: 50px;
+    padding-right: 4px;
+    margin-top: 1%;
+    padding-right: 4px;
+    position: absolute;
+    text-align: center;
+    transition: transform .2s;
+    width: 50px;
+  }
+  .robo-img {
+    
+    height: 60px;
+    margin-top: -90px;
+    padding-right: 4px;
+    position: absolute;
+    text-align: center;
+    transition: transform .2s;
+    width: 60px;
+  }
+  .robo-img-1 {
+    left: 12%;
+  }
+  .robo-img-2 {
+    left: 38%;
+
+  }
+  .robo-img-3 {
+    right: 15%;
+  }
+  .player-img-1 {
+    left: 23%;
+  }
+  .player-img-2 {
+    left: 50%;
+   
+  }
+  .player-img-3{
+    left: 77%;
+  }
+  .player-cell1 {
+    bottom: auto;
+      left: auto;
+      position: absolute;
+      right: 80%;
+      transform: translate(13%, 7%);
+      top: 1px;
+  }
+  .player-cell2 {
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top: 1px;
+    transform: none;
+    transform: translate(6%, 9%);
+  }
+  .player-cell3 {
+    bottom: auto; 
+    left: 80%;
+    position: absolute;
+    right: auto;
+    top: 1px;
+    transform: translate(2%, 10%);
+  }
+  .player-cell4 {
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    right:80%;
+    transform: translate(13%, 7%);
+    top: 110px;
+  }
+  .player-cell5 {
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top:110px;
+    transform: none;
+    transform: translate(6%, 9%);
+  }
+  .player-cell6 {
+    bottom: auto; 
+    left: 80%;
+    position: absolute;
+    right: auto;
+    top: 110px;
+    transform: translate(2%, 10%);
+  }
+  .player-cell7 {
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    right: 80%;
+    transform: translate(13%, 7%);
+    top: 220px;
+  }
+  .player-cell8 {
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top: 220px;
+    transform: translate(6%, 9%);
+  }
+
+  .player-cell9 {
+    bottom: auto; 
+     left: 80%;
+      position: absolute;
+      right: auto;
+      top: 220px;
+      transform: translate(2%, 10%);
+  }
+  .robo-cell1 {
+    bottom: auto;
+      left: auto;
+      position: absolute;
+      right:75%;
+      transform: translate(13%, 7%);
+      top: 90px;
+  }
+  .robo-cell2{
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top: 90px;
+    transform: none;
+    transform: translate(6%, 9%);
+  }
+  .robo-cell3 {
+    bottom: auto; 
+     left: 78%;
+      position: absolute;
+      right: auto;
+      top: 90px;
+      transform: translate(2%, 10%);
+  }
+  .robo-cell4{
+    bottom: auto;
+      left: auto;
+      position: absolute;
+      right:78%;
+      transform: translate(13%, 7%);
+      top: 200px;
+  }
+  .robo-cell5 {
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top: 200px;
+    transform: translate(6%, 9%);
+  } 
+   .robo-cell6 {
+    bottom: auto; 
+     left: 78%;
+      position: absolute;
+      right: auto;
+      top: 200px;
+      transform: translate(2%, 10%);
+  }
+  .robo-cell7 {
+    bottom: auto;
+      left: auto;
+      position: absolute;
+      right: 80%;
+      transform: translate(13%, 7%);
+      top: 310px;
+  } 
+   .robo-cell8 {
+    right:40%;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    top: 310px;
+       transform: translate(6%, 9%);
+  } 
+  .robo-cell9 {
+    bottom: auto; 
+     right: 1%;
+      position: absolute;
+      left: auto;
+      top: 310px;
+      transform: translate(2%, 10%);
+  }
+ 
+  .cell-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  .cell{
+  align-items: center;
+  border: 1px solid #f5f5f5;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  width: 70px;
+  }
+  
+  .placeNumber {
+    color: #8b008b;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .selected-img {
+    border: 5px solid green;
+    box-shadow: 0 0 15px #000;
+  }
+  .main-bg {
+    align-items: center;
+    /* background-image: url(/static/media/bg.ba5bebc….jpg); */
+    display: flex;
+    flex-wrap: wrap;
+    height: 82vh;
+    justify-content: center;
+  }
+  .grid {
+    margin-left: 16px;
+    position: relative;
+  }
+  .main{
+background-image: url("");
+  background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+  
+.create{
+  display: flex;
+  gap: 30px;
+ margin-left: 40px;
+}
+.login{
+  margin-top: 100px;
+}
+.reset{
+  margin-top: -30px;
+
+}
